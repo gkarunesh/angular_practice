@@ -1,1 +1,9 @@
-<h1>Welcome to my page</h1>
+<mat-card appearance="outlined">
+    <mat-card-content>
+        <div style="text-align: center;">
+            <h5 class="pt-3">Welcome to my angular18 <span class="text-danger">Change City</span> Example</h5>
+                <mat-slide-toggle (click)="changeCity()"></mat-slide-toggle>
+                <h3>{{city()}}</h3> 
+        </div> 
+    </mat-card-content>          
+  </mat-card>
